@@ -64,12 +64,11 @@ def dino_game():
     window.initial_y = 0
     window.initial_width = width
     window.initial_height = height
-
-    webview.start(window)
+    
+    webview.start()
 
 def run():
     print_Msg("=== Dino Game Controller Starting ===", Fore.MAGENTA)
-
     webcam_thread = threading.Thread(target=web_cam)
     webcam_thread.start()
     print_Msg("Thread Started...", Fore.YELLOW)    
