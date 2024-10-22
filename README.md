@@ -1,6 +1,6 @@
 # Dino Game controlled by Hand Gesture
 
-The Dino will jump when you **clench your fists**.
+The Dino will jump when you **clench your fists**.(like this ✊)
 
 # Requirements
 This uses python, so if you have not already downloaded python download it [[Link]](https://www.python.org/downloads/).
